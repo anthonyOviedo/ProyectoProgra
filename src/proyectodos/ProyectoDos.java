@@ -25,10 +25,7 @@ public class ProyectoDos {
         
         vista.setVisible(true);
 
-//        ModeloSecretaria modelo = new ModeloSecretaria();
-//        VistaSecretaria vistaSecretaria = new VistaSecretaria();
-//        ControllerSecretaria  controlSecretaria = new ControllerSecretaria(modelo, vistaSecretaria );
-//        controlSecretaria.getVistaSecretaria().setVisible(true);
+
     }
 
 }

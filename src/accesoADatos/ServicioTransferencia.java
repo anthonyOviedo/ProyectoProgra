@@ -11,7 +11,7 @@ import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import oracle.jdbc.OracleTypes;
+//import oracle.jdbc.OracleTypes;
 
 /**
  *
@@ -158,7 +158,7 @@ public class ServicioTransferencia extends Servicio {
         CallableStatement pstmt = null;
         try {
             pstmt = conexion.prepareCall(LISTARTRANSFERENCIA);
-            pstmt.registerOutParameter(1, OracleTypes.CURSOR);
+            //pstmt.registerOutParameter(1, OracleTypes.CURSOR);
             pstmt.execute();
             rs = (ResultSet) pstmt.getObject(1);
 
@@ -209,7 +209,7 @@ public class ServicioTransferencia extends Servicio {
         CallableStatement pstmt = null;
         try { 
             pstmt = conexion.prepareCall(CONSULTARTRANSFERENCIA);	
-            pstmt.registerOutParameter(1, OracleTypes.CURSOR);
+            //pstmt.registerOutParameter(1, OracleTypes.CURSOR);
             pstmt.setInt(2, numero );
             pstmt.execute();	
             

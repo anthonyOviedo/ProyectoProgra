@@ -11,10 +11,7 @@ import Vista.VistaSecretaria;
 import java.util.ArrayList;
 import java.util.Observable;
 
-/**
- *
- * @author MikerJABC
- */
+
 public class ModeloSecretaria extends Observable {
 
     VistaSecretaria vistaSecretaria;
@@ -41,7 +38,7 @@ public class ModeloSecretaria extends Observable {
             this.vistaSecretaria.dtm.addRow(new Object[]{
                solicitudes.get(i).getNumeroSolicitud(),
                solicitudes.get(i).getFecha(),
-              solicitudes.get(i).getTipo(),
+               solicitudes.get(i).getTipo(),
                 "",
                 "",
                 solicitudes.get(i).getEstado()

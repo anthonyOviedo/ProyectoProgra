@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Modelo;
+package Control;
 
-import java.util.Observable;
+
+
 
 /**
  *
- * @author MikerJABC
+ * @author Fernando
  */
-public class ModeloCatalogo extends Observable{
-    
-    
-    
-    
-    
+public class ControllerCatalogoArticulos {
     
 }
